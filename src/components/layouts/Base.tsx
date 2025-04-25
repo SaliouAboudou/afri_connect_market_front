@@ -689,11 +689,11 @@ export const Base = () => {
       {/* Section Action */}
       <div className='py-3 px-4 w-full md:mt-0 md:px-18 md:flex md:justify-center md:flex-col '>
           <h1 className=' text-2xl   font-extrabold py-2 md:text-center md:text-4xl'>Comment utiliser <span>Afri<strong className=' text-amber-600'>Xport</strong></span></h1>
-          <p className=' text-justify'>La plateforme PIU a été pensée pour être intuitive, rapide et accessible aussi bien aux clients qu’aux fournisseurs. Voici un aperçu simple du fonctionnement :</p>
+          <p className=' text-justify md:text-center'>La plateforme PIU a été pensée pour être intuitive, rapide et accessible aussi bien aux clients qu’aux fournisseurs. Voici un aperçu simple du fonctionnement :</p>
           <div className=' py-6 grid grid-cols-1 md:grid-cols-2 md:flex md:justify-around '>
             <div className=' py-4'>
               <h3 className=' font-bold text-2xl mb-3'>Côté client </h3>
-              <ul className=' flex flex-col gap-5'>
+              <ul className=' flex flex-col gap-5 '>
                 <li className=' flex gap-3.5 '>
                   <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>01</h1>
                     <div>
@@ -709,18 +709,90 @@ export const Base = () => {
                     </div>
                   </li>
                   <li className=' flex gap-3.5 '>
-                  <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>01</h1>
+                  <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>03</h1>
                     <div>
                       <h3 className=' font-semibold'>Commande</h3>
                       <p className=' text-justify text-gray-500'>Sélectionnez le produit, choisissez la quantité, validez la commande et effectuez le paiement via mobile money ou carte bancaire.</p>
                     </div>
                   </li>
-                  
-                  
+
+                  <li className=' flex gap-3.5 '>
+                  <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>04</h1>
+                    <div>
+                      <h3 className=' font-semibold'>Suivi de commande</h3>
+                      <p className=' text-justify text-gray-500'>Visualisez l'état de votre commande : en préparation, en transit, livré.</p>
+                    </div>
+                  </li>
+                  <li className=' flex gap-3.5 '>
+                  <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>05</h1>
+                    <div>
+                      <h3 className=' font-semibold'>Livraison sécurisée</h3>
+                      <p className=' text-justify text-gray-500'>Recevez vos produits via des transporteurs partenaires fiables.</p>
+                    </div>
+                  </li>
+                  <li className=' flex gap-3.5 '>
+                  <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>06</h1>
+                    <div>
+                      <h3 className=' font-semibold'>Notation du fournisseur</h3>
+                      <p className=' text-justify text-gray-500'>Évaluez votre expérience et aidez la communauté à mieux choisir.</p>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+            <div className=' py-4'>
+              <h3 className=' font-bold text-2xl mb-3'>Côté fournisseur </h3>
+              <ul className=' flex flex-col gap-5'>
+                <li className=' flex gap-3.5 '>
+                  <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>01</h1>
+                    <div>
+                      <h3 className=' font-semibold'>Création de boutique</h3>
+                      <p className=' text-justify text-gray-500'>Inscrivez-vous et vérifiez votre compte (KYC). Configurez votre profil vendeur.</p>
+                    </div>
+                  </li>
+                  <li className=' flex gap-3.5 '>
+                  <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>02</h1>
+                    <div>
+                      <h3 className=' font-semibold'>Ajout de produits</h3>
+                      <p className=' text-justify text-gray-500'>Mettez en ligne vos produits avec photos, descriptions et prix.</p>
+                    </div>
+                  </li>
+                  <li className=' flex gap-3.5 '>
+                  <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>03</h1>
+                    <div>
+                      <h3 className=' font-semibold'>Gestion des commandes</h3>
+                      <p className=' text-justify text-gray-500'>Consultez les commandes reçues, confirmez et préparez les colis.</p>
+                    </div>
+                  </li>
+
+                  <li className=' flex gap-3.5 '>
+                  <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>04</h1>
+                    <div>
+                      <h3 className=' font-semibold'>Expédition</h3>
+                      <p className=' text-justify text-gray-500'>Livrez les colis via nos partenaires logistiques ou votre propre moyen.</p>
+                    </div>
+                  </li>
+                  <li className=' flex gap-3.5 '>
+                  <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>05</h1>
+                    <div>
+                      <h3 className=' font-semibold'>Paiement</h3>
+                      <p className=' text-justify text-gray-500'>Recevez vos paiements de manière sécurisée après livraison.</p>
+                    </div>
+                  </li>
+                  <li className=' flex gap-3.5 '>
+                  <h1 className=' size-12 rounded-full bg-amber-400 font-extrabold flex justify-center items-center text-2xl text-white'>06</h1>
+                    <div>
+                      <h3 className=' font-semibold'>Support & messagerie</h3>
+                      <p className=' text-justify text-gray-500'>Répondez aux clients et suivez vos ventes en temps réel.</p>
+                    </div>
+                  </li>
               </ul>
             </div>
           </div>
       </div>
+
+      {/* Footer  */}
+
+      <div cl></div>
 
 
 
