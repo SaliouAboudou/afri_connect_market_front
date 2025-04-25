@@ -792,7 +792,7 @@ export const Base = () => {
 
       {/* Footer  */}
 
-      <div cl></div>
+      <div className=''></div>
 
 
 
