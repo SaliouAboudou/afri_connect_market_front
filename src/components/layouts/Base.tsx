@@ -116,23 +116,23 @@ export const Base = () => {
       </div>
 
       {/* Section fonctionnement de la plaleforme  */}
-      <div className='py-3 px-4 w-full mt-80 md:px-18 md:mt-0 md:flex md:justify-center md:flex-col '>
+      <div className='py-3 px-4 w-full mt-42 md:px-18 md:mt-0 md:flex md:justify-center md:flex-col '>
           <h1 className=' text-2xl bg-amber-50 font-extrabold py-2 md:text-center md:text-4xl'>Comment fonction <span>Afri<strong className=' text-amber-600'>Xport</strong></span></h1>
           <div className=' py-6 flex justify-between bg-gray-50 md:flex md:justify-around '>
-              <div className=' size-32 md:size-42 border border-orange-200  rounded-full flex justify-center items-center flex-col shadow-sm'>
-               <div className=' h-10 overflow-hidden text-center'>
-                  <img className=' h-full object-contain mx-auto' src={vet1} alt="" />
+              <div className=' size-32 md:size-42 md:border border-orange-200  rounded-full flex justify-center items-center flex-col md:shadow-sm'>
+               <div className=' p-2 border rounded-md border-gray-300 h-18 overflow-hidden text-center'>
+                  <img className=' h-full object-contain mx-auto ' src={vet1} alt="" />
                 </div>
                 <h3 className=' font-medium text-sm md:text-xl'>Choisir</h3>
               </div>
-              <div className=' size-32 md:size-42 border border-orange-200  rounded-full flex justify-center items-center flex-col shadow-sm'>
-               <div className=' h-10 overflow-hidden text-center'>
+              <div className=' size-32 md:size-42 md:border border-orange-200  rounded-full flex justify-center items-center flex-col md:shadow-sm'>
+               <div className='  p-2 border rounded-md border-gray-300 h-18 overflow-hidden text-center'>
                   <img className=' h-full object-contain mx-auto' src={vet1} alt="" />
                 </div>
                 <h3 className=' font-medium text-sm md:text-xl'>Commander</h3>
               </div>
-              <div className=' size-32 md:size-42 border border-orange-200  rounded-full flex justify-center items-center flex-col shadow-sm'>
-               <div className=' h-10 overflow-hidden text-center'>
+              <div className=' size-32 md:size-42 md:border border-orange-200  rounded-full flex justify-center items-center flex-col md:shadow-sm'>
+               <div className='  p-2 border rounded-md border-gray-300 h-18 overflow-hidden text-center'>
                   <img className=' h-full object-contain mx-auto' src={vet1} alt="" />
                 </div>
                 <h3 className=' font-medium text-sm md:text-xl'>Recevoir</h3>
