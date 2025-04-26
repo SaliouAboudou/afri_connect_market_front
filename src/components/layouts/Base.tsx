@@ -407,7 +407,7 @@ export const Base = () => {
           </div>
         </div>
 
-          <span className=" size-svw bg-amber-100 rounded-full absolute bottom-1 -z-20  blur-2xl opacity-70"></span>
+          {/* <span className=" size-svw bg-amber-100 rounded-full absolute bottom-1 -z-20  blur-2xl opacity-70"></span> */}
 
       </div>
 
@@ -539,7 +539,7 @@ export const Base = () => {
           </div>
         </div>
 
-        <span className=" md:hidden size-svw bg-amber-100 rounded-full absolute  -z-20  blur-2xl opacity-70"></span>
+        {/* <span className=" md:hidden size-svw bg-amber-100 rounded-full absolute  -z-20  blur-2xl opacity-70"></span> */}
       </div>
 
       <div className='px-6 py-3 w-full md:mt-0 md:px-18 relative'>
@@ -723,7 +723,7 @@ export const Base = () => {
       
 
       {/* Section Action */}
-        <span className="  size-svh bg-amber-100 rounded-full absolute  -z-20  blur-2xl opacity-70"></span>
+        {/* <span className="  size-svh bg-amber-100 rounded-full absolute  -z-20  blur-2xl opacity-70"></span> */}
       <div className='py-3 px-4 w-full md:mt-0 md:px-18 md:flex md:justify-center md:flex-col '>
           <h1 className=' text-2xl   font-extrabold py-2 md:text-center md:text-4xl'>Comment utiliser <span>Afri<strong className=' text-amber-600'>Xport</strong></span></h1>
           <p className=' text-justify md:text-center'>La plateforme PIU a été pensée pour être intuitive, rapide et accessible aussi bien aux clients qu’aux fournisseurs. Voici un aperçu simple du fonctionnement :</p>
